@@ -1,0 +1,43 @@
+body {
+  margin: 10px;
+  display: ;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.product {
+  width: auto;
+  position: relative;
+}
+
+.bg {
+  position: ;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sideColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  }
+
+.arm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  }
+
+

@@ -1,0 +1,110 @@
+<!--
+
+Hit RUN to see this project in action!
+
+This project will auto-refresh as you edit the HTML and CSS.
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>컬러커스텀 다이빙롱존</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2>컬러커스텀 다이빙롱존</h2>
+  <div class="product">
+    <img class="bg" src="https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/bg.png">
+    <img class="main" src="https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-blk.png">
+    <img class="sideColor" src="https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-slv.png">
+  </div>
+
+  <div class="btn">
+
+
+    <h2>메인컬러</h2>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-blk.png')">블랙</button>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-chr.png')">차콜</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-nvy.png')">네이비</button>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-slv.png')">실버</button>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-red.png')">레드</button>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-blu.png')">블루</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-org.png')">오렌지</button>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-sky.png')">하늘</button>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-yel.png')">노랑</button>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-mnt.png')">민트</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-olv.png')">올리브</button>
+    <button onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-pur.png')">퍼플</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-wht.png')">화이트</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-camoblu.png')">카모블루</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-camored.png')">카모레드</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-camogrn.png')">카모그린</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-camosf.png')">카모SF</button>
+    <button
+      onclick="changeImageA('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/main-camoblk.png')">카모블랙</button>
+
+
+
+    <h2>사이드컬러</h2>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-blk.png')">블랙</button>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-chr.png')">차콜</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-nvy.png')">네이비</button>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-slv.png')">실버</button>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-red.png')">레드</button>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-blu.png')">블루</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-org.png')">오렌지</button>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-sky.png')">하늘</button>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-yel.png')">노랑</button>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-mnt.png')">민트</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-olv.png')">올리브</button>
+    <button onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-pur.png')">퍼플</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-wht.png')">화이트</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-camoblu.png')">카모블루</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-camored.png')">카모레드</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-camogrn.png')">카모그린</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-camosf.png')">카모SF</button>
+    <button
+      onclick="changeImageB('https://gi.esmplus.com/mobbyskor/color_simulator/longjohn/side-camoblk.png')">카모블랙</button>
+
+    <!--
+
+      로고부분 임시 삭제
+
+
+    <h2>로고</h2>
+    <button
+      onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/free2pc-vest/logo-gry.png')">그레이</button>
+    <button
+      onclick="changeImageC('https://gi.esmplus.com/mobbyskor/color_simulator/free2pc-vest/logo-none.png')">없음</button>
+
+    
+    
+    -->
+
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
